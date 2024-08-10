@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Logo Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo-preview" id="logoPreview">
+            <div class="logo-text">
+                <span id="textPart1" class="blue-text">Blue</span>
+                <span id="textPart2">Archive</span>
+            </div>
+            <div class="logo-image" id="logoImage">
+                <img src="cross.png" alt="Cross" id="cross">
+                <img src="halo.png" alt="Halo" id="halo">
+            </div>
+        </div>
+
+        <div class="controls">
+            <label for="text1">Text Part 1:</label>
+            <input type="text" id="text1" value="Blue">
+
+            <label for="text2">Text Part 2:</label>
+            <input type="text" id="text2" value="Archive">
+
+            <label for="xPos">Logo X Position:</label>
+            <input type="range" id="xPos" min="-100" max="100" value="0">
+
+            <label for="yPos">Logo Y Position:</label>
+            <input type="range" id="yPos" min="-100" max="100" value="0">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

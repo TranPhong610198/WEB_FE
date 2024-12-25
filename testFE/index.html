@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sublime - Online Shop</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+</head>
+
+<body class="font-sans">
+    <header class="bg-white shadow-md">
+        <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <div class="text-xl font-bold text-gray-800">Sublime.</div>
+            <div class="hidden md:flex space-x-4">
+                <a href="#" class="text-gray-800 hover:text-gray-600">Home</a>
+                <a href="#" class="text-gray-800 hover:text-gray-600">Shop</a>
+                <a href="#" class="text-gray-800 hover:text-gray-600">About</a>
+                <a href="#" class="text-gray-800 hover:text-gray-600">Contact</a>
+            </div>
+            <div class="flex items-center space-x-4">
+                <a href="#" class="text-gray-800"><i class="fas fa-search"></i></a>
+                <a href="#" class="text-gray-800"><i class="fas fa-shopping-cart"></i></a>
+                <a href="#" class="text-gray-800"><i class="fas fa-user"></i></a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="bg-gradient-to-r from-purple-500 to-teal-500 text-white py-20">
+            <div class="container mx-auto px-6">
+                <h1 class="text-4xl font-bold mb-2">A new Online Shop experience.</h1>
+                <p class="mb-8">Discover amazing products and unbeatable deals.</p>
+                <button class="bg-white text-purple-500 px-6 py-2 rounded-full hover:bg-gray-100">Shop Now</button>
+            </div>
+        </section>
+
+        <section class="container mx-auto px-6 py-8">
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-yellow-400 p-6 rounded-lg">
+                    <h2 class="text-2xl font-bold mb-2">Smart Phones</h2>
+                    <p class="mb-4">Get the latest smartphones at unbeatable prices.</p>
+                    <span class="text-3xl font-bold">20% OFF</span>
+                </div>
+                <div class="bg-gray-800 text-white p-6 rounded-lg">
+                    <h2 class="text-2xl font-bold mb-2">Professional Cameras</h2>
+                    <p class="mb-4">Capture life's moments with crystal clarity.</p>
+                    <button class="bg-white text-gray-800 px-4 py-2 rounded">Learn More</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="container mx-auto px-6 py-8">
+            <h2 class="text-2xl font-bold mb-8">Featured Products</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="border p-4 rounded-lg">
+                    <img src="/api/placeholder/300/300" alt="Product" class="w-full h-40 object-cover mb-4">
+                    <h3 class="font-semibold">Smart Phone</h3>
+                    <p class="text-gray-600">$799</p>
+                </div>
+                <div class="border p-4 rounded-lg">
+                    <img src="/api/placeholder/300/300" alt="Product" class="w-full h-40 object-cover mb-4">
+                    <h3 class="font-semibold">Wireless Earbuds</h3>
+                    <p class="text-gray-600">$129</p>
+                </div>
+                <div class="border p-4 rounded-lg">
+                    <img src="/api/placeholder/300/300" alt="Product" class="w-full h-40 object-cover mb-4">
+                    <h3 class="font-semibold">Smartwatch</h3>
+                    <p class="text-gray-600">$249</p>
+                </div>
+                <div class="border p-4 rounded-lg">
+                    <img src="/api/placeholder/300/300" alt="Product" class="w-full h-40 object-cover mb-4">
+                    <h3 class="font-semibold">Laptop</h3>
+                    <p class="text-gray-600">$1299</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-gray-100 py-12">
+            <div class="container mx-auto px-6">
+                <h2 class="text-2xl font-bold mb-8">Amazing Devices</h2>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <img src="/api/placeholder/500/300" alt="Amazing Devices"
+                            class="w-full h-64 object-cover rounded-lg">
+                    </div>
+                    <div class="flex flex-col justify-center">
+                        <h3 class="text-xl font-semibold mb-4">Discover Our Latest Tech</h3>
+                        <p class="mb-4">Experience cutting-edge technology with our amazing devices.</p>
+                        <button
+                            class="bg-purple-500 text-white px-6 py-2 rounded-full hover:bg-purple-600 self-start">Learn
+                            More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container mx-auto px-6 py-12">
+            <div class="grid md:grid-cols-3 gap-8 text-center">
+                <div>
+                    <i class="fas fa-truck text-4xl mb-4 text-purple-500"></i>
+                    <h3 class="font-semibold mb-2">Free Shipping Worldwide</h3>
+                    <p class="text-gray-600">On orders over $50</p>
+                </div>
+                <div>
+                    <i class="fas fa-undo text-4xl mb-4 text-purple-500"></i>
+                    <h3 class="font-semibold mb-2">30 Days Return</h3>
+                    <p class="text-gray-600">No questions asked</p>
+                </div>
+                <div>
+                    <i class="fas fa-headset text-4xl mb-4 text-purple-500"></i>
+                    <h3 class="font-semibold mb-2">24/7 Customer Support</h3>
+                    <p class="text-gray-600">Always here to help</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-gray-100 py-12">
+            <div class="container mx-auto px-6">
+                <h2 class="text-2xl font-bold mb-8 text-center">Subscribe to our newsletter</h2>
+                <form class="max-w-md mx-auto">
+                    <div class="flex">
+                        <input type="email" placeholder="Your email address"
+                            class="flex-grow px-4 py-2 rounded-l-full focus:outline-none">
+                        <button type="submit"
+                            class="bg-purple-500 text-white px-6 py-2 rounded-r-full hover:bg-purple-600">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-6">
+            <div class="flex justify-between items-center">
+                <div class="text-xl font-bold">Sublime.</div>
+                <div class="flex space-x-4">
+                    <a href="#" class="hover:text-gray-300"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="hover:text-gray-300"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="hover:text-gray-300"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="mt-4 text-center text-sm">
+                &copy; 2023 Sublime. All rights reserved.
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
